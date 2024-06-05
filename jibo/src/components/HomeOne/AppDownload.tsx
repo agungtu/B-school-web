@@ -25,8 +25,6 @@ const AppDownload: React.FC = () => {
             <div className="col-lg-12 d-flex justify-content-center">
               <div
                 className="app-download-content"
-                data-aos="fade-in"
-                data-aos-duration="6000"
               >
                 <a
                   href="https://api.whatsapp.com/send/?phone=6281542553779&text&type=phone_number&app_absent=0"
