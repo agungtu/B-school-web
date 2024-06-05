@@ -5,7 +5,7 @@ import React from "react";
 const AppDownload: React.FC = () => {
   return (
     <>
-      <section id="app-download"  style={{backgroundColor : " rgb(29,161,156)"  , }}>
+      <section id="contact"  style={{backgroundColor : " rgb(29,161,156)"  , }}>
         <div className="container">
           <div
             className="section-title"
@@ -27,7 +27,6 @@ const AppDownload: React.FC = () => {
                 className="app-download-content"
                 data-aos="fade-in"
                 data-aos-duration="6000"
-                data-aos-delay="300"
               >
                 <a
                   href="https://api.whatsapp.com/send/?phone=6281542553779&text&type=phone_number&app_absent=0"
