@@ -7,7 +7,8 @@ import Image from "next/image";
 
 const sliderData = [
   {
-    heading: "Go Digital bersama B-School, Jadikan sekolah lebih maju dengan teknologi",
+    heading:
+      "Go Digital bersama B-School, Jadikan sekolah lebih maju dengan teknologi",
     text: "Selamatkan Waktu, Hemat Energi, Tingkatkan Efisiensi, Teknologi Inovatif untuk Operasional Sekolah yang lebih mudah",
     image: "/images/bsi.png",
   },
@@ -30,7 +31,10 @@ const Slider: React.FC = () => {
         {sliderData &&
           sliderData.map((value, i) => (
             <SwiperSlide key={i}>
-              <div className="single-slider-item" style={{backgroundColor : " rgb(29,161,156)"  , }}>
+              <div
+                className="single-slider-item"
+                style={{ backgroundColor: " rgb(29,161,156)" }}
+              >
                 <div className="slide-item-table">
                   <div className="slide-item-tablecell">
                     <div className="container">
@@ -46,11 +50,17 @@ const Slider: React.FC = () => {
                                 href="https://app.dev.solusinegeri.com/BSCHOOL"
                                 target="_blank"
                                 className="slide-btn-white mr-10"
+                                style={{ backgroundColor: "rgb(235, 156, 66)" }}
                               >
-                                <i className="icofont-cloud-download"></i>
+                                <i className="icofont-cloud-download text-white"></i>
                                 Get A Free Demo
                               </a>
-                              <a href="https://www.youtube.com/watch?v=5gp-Nlqh37I" target="_blank" className="slide-btn-bordered">
+                              <a
+                                href="https://www.youtube.com/watch?v=5gp-Nlqh37I"
+                                target="_blank"
+                                className="slide-btn-bordered"
+                                style={{ backgroundColor: "rgb(235, 156, 66)" }}
+                              >
                                 Watch Video
                               </a>
                             </div>

@@ -30,6 +30,7 @@ const AppDownload: React.FC = () => {
                   href="https://api.whatsapp.com/send/?phone=6281542553779&text&type=phone_number&app_absent=0"
                   className="purchase-btn"
                   target="_blank"
+                  style={{ backgroundColor: "rgb(235, 156, 66)" }}
                 >
                     
                     <span className="large-text">Hubungi Kami</span>
@@ -41,9 +42,10 @@ const AppDownload: React.FC = () => {
                   href="https://www.canva.com/design/DAF9m811Hoo/zEw3lcVMBeJJQVB4akcygA/view"
                   className="purchase-btn"
                   target="_blank"
+                  style={{ backgroundColor: "rgb(235, 156, 66)" }}
                 >
                
-                    <span className="large-text">Materi B-School</span>
+                    <span className="large-text" >Materi B-School</span>
                 </a>
             </div>
           </div>

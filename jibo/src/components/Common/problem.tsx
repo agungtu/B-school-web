@@ -34,7 +34,7 @@ const Screenshots: React.FC = () => {
             data-aos-duration="800"
             data-aos-delay="100"
           >
-            <h2 style={{color: "blue"}}>PROBLEM</h2>
+            <h2 style={{color: "rgb(235, 156, 66)"}}>PROBLEM</h2>
             <h3 className="text-muted">
             Solusi inovatif lebih mudah
             </h3>

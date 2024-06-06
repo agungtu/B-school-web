@@ -15,7 +15,7 @@ const Pricing: React.FC = () => {
             data-aos-duration="800"
             data-aos-delay="100"
           >
-            <h2 style={{ color: "blue" }}>Pricing </h2>
+            <h2 style={{ color: "rgb(235, 156, 66)" }}>Pricing </h2>
             <h3 className="text-muted">Penawaran Menarik Dari Kami</h3>
           </div>
 
@@ -111,7 +111,7 @@ const Pricing: React.FC = () => {
               </h4>
               <center>
                 <div className="price-footer col-sm-3 text-center">
-                  <Link href="https://api.whatsapp.com/send/?phone=6281542553779&text&type=phone_number&app_absent=0" target="_blank" className="purchase-btn">
+                  <Link href="https://api.whatsapp.com/send/?phone=6281542553779&text&type=phone_number&app_absent=0" target="_blank" className="purchase-btn" style={{ backgroundColor: "rgb(235, 156, 66)" }}>
                     Hubungi Kami
                   </Link>
                 </div>

@@ -52,7 +52,11 @@ const HowItWorks: React.FC = () => {
 
   return (
     <>
-      <section id="benefit" className="how-it-works"  style={{backgroundColor : " rgb(29,161,156)" }}>
+      <section
+        id="benefit"
+        className="how-it-works"
+        style={{ backgroundColor: " rgb(29,161,156)" }}
+      >
         <div className="container">
           <div
             className="section-title"
@@ -60,7 +64,7 @@ const HowItWorks: React.FC = () => {
             data-aos-duration="800"
             data-aos-delay="100"
           >
-            <h2 style={{ color: "white" }}>Benefit</h2>
+            <h2 style={{ color: "rgb(235, 156, 66)" }}>Benefit</h2>
             <h3 className="text-white">Keuntungan Yang Didapat</h3>
           </div>
 

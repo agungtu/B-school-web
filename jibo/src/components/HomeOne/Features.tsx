@@ -58,7 +58,7 @@ const Features: React.FC = () => {
             data-aos-duration="800"
             data-aos-delay="100"
           >
-            <h2 style={{ color: "blue" }}>User</h2>
+            <h2 style={{ color: "rgb(235, 156, 66)" }}>User</h2>
             <h3 className="text-muted">Tersebar di seluruh wilayah Indonesia</h3>
           </div>
 
